@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Thêm ảnh động</title>
+</head>
+<body>
+
+<div id="bo">
+  </div>
+
+<button onclick="addnode_img()">Thêm ảnh</button>
+
+<script>
+function addnode_img() {
+  var pt = document.createElement('img');
+  pt.src = './ảnh14.jpg';
+  document.getElementById('bo').appendChild(pt);
+}
+</script>
+
+</body>
+</html>
